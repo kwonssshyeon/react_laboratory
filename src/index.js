@@ -7,6 +7,7 @@ import Library from './jsx_test/Library';
 import Clock from './element_test/Clock';
 import CommentList from './component_test/CommentList';
 import NotificationList from './state_test/NotificationList';
+import Accommodate from './hook_test/Accommodate';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 // jsx_test
@@ -28,7 +29,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 //component_test
 root.render(
   <React.StrictMode>
-    <NotificationList />
+    <Accommodate />
   </React.StrictMode>
 );
 
